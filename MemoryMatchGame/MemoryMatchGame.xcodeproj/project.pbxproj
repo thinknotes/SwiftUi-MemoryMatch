@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333B45012BA0A55900CBB203 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333B45002BA0A55900CBB203 /* StartView.swift */; };
 		33416B9A2B9F703300CCF98C /* MemoryMatchGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33416B992B9F703300CCF98C /* MemoryMatchGameApp.swift */; };
 		33416B9C2B9F703300CCF98C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33416B9B2B9F703300CCF98C /* ContentView.swift */; };
 		33416B9E2B9F703500CCF98C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33416B9D2B9F703500CCF98C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		333B45002BA0A55900CBB203 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		33416B962B9F703300CCF98C /* MemoryMatchGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryMatchGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33416B992B9F703300CCF98C /* MemoryMatchGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMatchGameApp.swift; sourceTree = "<group>"; };
 		33416B9B2B9F703300CCF98C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				33416B992B9F703300CCF98C /* MemoryMatchGameApp.swift */,
 				33416B9B2B9F703300CCF98C /* ContentView.swift */,
+				333B45002BA0A55900CBB203 /* StartView.swift */,
 				33416B9D2B9F703500CCF98C /* Assets.xcassets */,
 				33416B9F2B9F703500CCF98C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333B45012BA0A55900CBB203 /* StartView.swift in Sources */,
 				33416B9C2B9F703300CCF98C /* ContentView.swift in Sources */,
 				33416B9A2B9F703300CCF98C /* MemoryMatchGameApp.swift in Sources */,
 			);

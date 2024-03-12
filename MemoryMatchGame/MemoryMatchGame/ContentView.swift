@@ -9,60 +9,85 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        GeometryReader { size in
-            ZStack {
-                Image("background")
-                    .resizable()
-                    .scaledToFill()
-                    .edgesIgnoringSafeArea(.all)
+        NavigationView {
+                ZStack {
+                    Image("background")
+                        .resizable()
+                        .scaledToFill()
+                        .edgesIgnoringSafeArea(.all)
+                    
+                    Spacer()
+                    
+                    VStack {
+                        Text("EmojiMatch")
+                            .multilineTextAlignment(.center)
+                            .frame(height: 100)
+                            .font(.system(size: 50, design: .rounded))
+                            .foregroundColor(.white)
+                            .background(.orange)
+                            .cornerRadius(10)
+                            .padding(.all)
+                           
+                            
+                        
+                        
+                        Spacer()
+                            
+                        
+                        NavigationLink(destination: StartView() .navigationBarBackButtonHidden(true), label:  {
+                            Text("Start")
+                                .multilineTextAlignment(.center)
+                                .frame(width: 200, height: 50)
+                                .font(.system(size: 50, design: .rounded))
+                                .foregroundColor(.white)
+                                .background(Color.blue) // Use Color instead of .blue
+                                .cornerRadius(10)
+                                .padding()
+                               
+                             
+                        })
+                        
+                        
+                    }
+                    .padding()
+                    
+                }
+                
+             
+                
+                
+                
+            
+                
+                
+            
+                
+                
+                
+                
+                
+             
+             
+                
+               
+                    
+                
                
                 
-            }
-            
-            Spacer()
-       
-            
-            
                 
-            Text("EmojiMatch")
-                    .multilineTextAlignment(.center)
-                    .frame(maxWidth: .infinity, alignment: .center)
-                    .frame(height: 50)
-                    .font(.system(.title, design: .rounded))
-                    .foregroundColor(.white)
-                    .background(.orange)
-                    .cornerRadius(5)
-                    .padding()
-                    .offset(y: 100)
-                    
-                    
-                 
-                   
-                    
-            
-         
-            
-            
-            
-                Text("Start")
-                    .multilineTextAlignment(.center)
-                    .frame(maxWidth: .infinity, alignment: .center)
-                    .frame(height: 50)
-                    .font(.system(.title, design: .rounded))
-                    .foregroundColor(.white)
-                    .background(.blue)
-                    .cornerRadius(5)
-                    .padding()
-                    .offset(y: 500)
+                
+                
+                
+                
+            }
             
             
         }
         
         
-        
     }
         
-}
+
 
 #Preview {
     ContentView()
