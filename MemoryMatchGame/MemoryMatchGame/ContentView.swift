@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
                 ZStack {
+                    //Shows a custom emjoi background
                     Image("background")
                         .resizable()
                         .scaledToFill()
@@ -19,10 +20,11 @@ struct ContentView: View {
                     Spacer()
                     
                     VStack {
+                        //Shows game text when apps is lanuch
                         Text("EmojiMatch")
                             .multilineTextAlignment(.center)
                             .frame(height: 100)
-                            .font(.system(size: 50, design: .rounded))
+                            .font(.custom("Assistant-Regular", size: 50)) //Custom font
                             .foregroundColor(.white)
                             .background(.orange)
                             .cornerRadius(10)
@@ -33,14 +35,14 @@ struct ContentView: View {
                         
                         Spacer()
                             
-                        
+                        //Shows the start view and hides a the back button so the user can not go back
                         NavigationLink(destination: StartView() .navigationBarBackButtonHidden(true), label:  {
                             Text("Start")
                                 .multilineTextAlignment(.center)
                                 .frame(width: 200, height: 50)
-                                .font(.system(size: 50, design: .rounded))
+                                .font(.custom("Assistant-Light", size: 50)) //Custom font
                                 .foregroundColor(.white)
-                                .background(Color.blue) // Use Color instead of .blue
+                                .background(Color.blue)
                                 .cornerRadius(10)
                                 .padding()
                                

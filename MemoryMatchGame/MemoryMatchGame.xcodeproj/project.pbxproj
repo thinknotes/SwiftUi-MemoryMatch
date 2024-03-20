@@ -23,6 +23,15 @@
 		33416B9B2B9F703300CCF98C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33416B9D2B9F703500CCF98C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33416BA02B9F703500CCF98C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33A35DDC2BA9F5CB003289CB /* Assistant-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Assistant-VariableFont_wght.ttf"; path = "../../../../../../Downloads/Assistant (1)/Assistant-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		33A35DDD2BA9F5D9003289CB /* Assistant-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-Regular.ttf"; sourceTree = "<group>"; };
+		33A35DDE2BA9F5D9003289CB /* Assistant-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-ExtraBold.ttf"; sourceTree = "<group>"; };
+		33A35DDF2BA9F5DA003289CB /* Assistant-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-Bold.ttf"; sourceTree = "<group>"; };
+		33A35DE02BA9F5DA003289CB /* Assistant-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-ExtraLight.ttf"; sourceTree = "<group>"; };
+		33A35DE12BA9F5DA003289CB /* Assistant-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-SemiBold.ttf"; sourceTree = "<group>"; };
+		33A35DE22BA9F5DA003289CB /* Assistant-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-Light.ttf"; sourceTree = "<group>"; };
+		33A35DE32BA9F5DA003289CB /* Assistant-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assistant-Medium.ttf"; sourceTree = "<group>"; };
+		33A35DE42BA9F623003289CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		33F57F2D2BA205C1000FEB3C /* FinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
 		33F57F2F2BA20696000FEB3C /* EmojiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,10 +66,19 @@
 		33416B982B9F703300CCF98C /* MemoryMatchGame */ = {
 			isa = PBXGroup;
 			children = (
+				33A35DE42BA9F623003289CB /* Info.plist */,
 				33416B992B9F703300CCF98C /* MemoryMatchGameApp.swift */,
 				33416B9B2B9F703300CCF98C /* ContentView.swift */,
 				333B45002BA0A55900CBB203 /* StartView.swift */,
 				33F57F2D2BA205C1000FEB3C /* FinishView.swift */,
+				33A35DDC2BA9F5CB003289CB /* Assistant-VariableFont_wght.ttf */,
+				33A35DDF2BA9F5DA003289CB /* Assistant-Bold.ttf */,
+				33A35DDE2BA9F5D9003289CB /* Assistant-ExtraBold.ttf */,
+				33A35DE02BA9F5DA003289CB /* Assistant-ExtraLight.ttf */,
+				33A35DE22BA9F5DA003289CB /* Assistant-Light.ttf */,
+				33A35DE32BA9F5DA003289CB /* Assistant-Medium.ttf */,
+				33A35DDD2BA9F5D9003289CB /* Assistant-Regular.ttf */,
+				33A35DE12BA9F5DA003289CB /* Assistant-SemiBold.ttf */,
 				33F57F2F2BA20696000FEB3C /* EmojiCard.swift */,
 				33416B9D2B9F703500CCF98C /* Assets.xcassets */,
 				33416B9F2B9F703500CCF98C /* Preview Content */,
@@ -286,6 +304,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MemoryMatchGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoryMatchGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,6 +333,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MemoryMatchGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoryMatchGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

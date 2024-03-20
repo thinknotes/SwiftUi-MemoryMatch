@@ -10,30 +10,28 @@ import SwiftUI
 struct EmojiCard: View {
 
     
-      var isFliped: Bool
-      var emoji: String
+      var isFliped: Bool //store fliped value
+      var emoji: String //Displays emoji
    
     var body: some View {
-        ZStack {
+        ZStack { //
           
-            Rectangle()
-                .fill(isFliped ? Color.clear : Color.blue)
+            Rectangle()  //Displays Rectangle shaped
+                .fill(isFliped ? Color.clear : Color.blue) //sets the baclkground color of blue when nothing has happend and clear when the emoji displays
                 .frame(width: 70, height: 70)
-                .cornerRadius(10)
+                .cornerRadius(10) //Adds a corner radius of 10
                 
 //                .background(Color.blue)
             
                    
-            if isFliped {
-//                ForEach(emoji, id: \.self) { emojiString in
-                    Text(emoji)
+            if isFliped { //If fliped is true
+                    Text(emoji) //Displays emoji
                         .frame(width: 70, height: 70)
                         .padding()
                         .font(.title)
                 
                 
                         
-//                }
             }
                        
         }
